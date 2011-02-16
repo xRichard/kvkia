@@ -13,6 +13,6 @@ else if ($_GET['status'] == 'delete')
 }
 else
 {
-    echo "testtest";
+    echo "test";
 }
 ?>
