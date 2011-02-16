@@ -231,9 +231,11 @@ function show_sqlpage($page_id)
           return $value;
       }
     }
-
+	    echo "<div id='text_container'>";
             echo "<h1>".stripslashes_deep($content['page_title'])."</h1>";
+	    
             echo stripslashes_deep($content['page_content']);
+	    echo "</div>";
 
     }
     else

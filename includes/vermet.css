@@ -53,13 +53,18 @@ body {
 #left {
 	float: left;
 	width: 690px;
-	margin-right: 20px;
-	
+	margin-right: 20px;	
 }
 
 #right {
 	float: left;
 	width: 260px;
+}
+#text_container {
+	float: left;
+	width: 950px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #aanbod_left {
