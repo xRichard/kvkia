@@ -6,6 +6,7 @@ body {
     color: #FFFF00;
     background-repeat: repeat-x;
     margin-top: 0px;
+	background-color: #E0E0E0  
 }
 
 #container {
@@ -204,7 +205,7 @@ h1 {
 
 /* Links */
 a {
-	color: FFFF66;
+	color: #3366FF;
 	text-decoration: none;
 }
 
@@ -212,7 +213,7 @@ a:hover {
 	text-decoration: underline;
 }
 a:visited {
-color: #FFFF66;
+color: #3366FF;
 }
 /* End Links */
 #error
