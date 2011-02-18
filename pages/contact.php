@@ -11,7 +11,8 @@ else
 	include('includes/config.inc.php');
 	
 	echo "<div id='contact_left'>";
-	echo "<h1>Contactgegevens</h1>";
+	//veld
+		echo "<h1>Contactgegevens</h1>";
 	echo $makelaar."<br />";
 	if(!empty($makelaarsOrganisatie ))
 	{
@@ -20,12 +21,30 @@ else
 	}
 	echo "<label>Telefoon: <label>";
 	echo $telefoon."<br />";
-	echo "<label>E-mail: </label>";
-	echo $email_contact."<br /><br />";
+
 	echo "<label><h1>Adres</h1> </label>";
 	echo $streetname."<br />";
-	echo $zipcode.' '.$city."<br /><br /><h1>Routebeschrijving</h1>".$route_beschrijving;
+	echo $zipcode.' '.$city."<br /><br /><h1>Locatie</h1>".$veld;
+	
+	
+	//zaal
+	
+	
+		echo "<br /><br /><h1>Zaal gegevens</h1>";
+	echo $sporthal."<br />";
+	if(!empty($makelaarsOrganisatie ))
+	{
+		echo "<label>Organisatie: </label>";
+		echo $makelaarsOrganisatie."<br />";
+	}
+	echo "<label>Telefoon: <label>";
+	echo $telefoonsporthal."<br />";
+
+	echo "<label><h1>Adres</h1> </label>";
+	echo $streetnamesporthal."<br />";
+	echo $zipcodesporthal.' '.$citysporthal."<br /><br /><h1>Locatie</h1>".$zaal;
 	echo "</div>";
+	/*
 	if(empty($_POST))
 	{
 		echo "<div id='contact_right'>";
@@ -59,7 +78,7 @@ else
 		echo "</pre>";
 		echo "</div>";
 	}
-	
+	*/
 }
 
 ?>

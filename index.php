@@ -1,7 +1,7 @@
 <?php
 /*
-*	Build by: 	Richard Boer
-*	Date:		July - augustus 2010
+*	Build by: 	Richard Boer and hjvg
+*	Date:		July - augustus 2011
 *	Version:	1.0
 */
 

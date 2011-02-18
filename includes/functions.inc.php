@@ -26,7 +26,7 @@
 		//by just adding the hardcoded link based on the config.
 		if($css_user == "user")
 		{
-			echo '<link rel="stylesheet" href="includes/vermet.css" type="text/css" />';
+			echo '<link rel="stylesheet" href="includes/kia.css" type="text/css" />';
 			echo '<link rel="stylesheet" href="includes/lightbox/css/lightbox.css" type="text/css" media="screen" />';
 		?>
 			<script type="text/javascript" src="includes/lightbox/js/prototype.js"></script>
@@ -38,7 +38,7 @@
 		}
 		else if($css_user == "admin")
 		{
-			echo '<link rel="stylesheet" href="../includes/vermet.css" type="text/css" />';
+			echo '<link rel="stylesheet" href="../includes/kia.css" type="text/css" />';
 
 			echo '<script type="text/javascript" src="../includes/mootools/mootools.js"></script>';
 			?>
