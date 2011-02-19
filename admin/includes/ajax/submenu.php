@@ -18,7 +18,7 @@ else if(!empty($_GET['menu']))
                     for($i = 0; $i < $count; $i++)
                         {
                             $menu = mysql_fetch_array($sql);
-                            echo "<option value='".$menu['menu_file']."'>".$menu['menu_title']."</option>";
+                            echo "<option value='".$menu['submenu_file']."'>".$menu['submenu_title']."</option>";
                         }
                 echo '</select>';
             }

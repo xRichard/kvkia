@@ -95,7 +95,7 @@
     echo "U bent nu uitgelogd.";
     echo "<br />";
     echo "<br />";
-    echo "<a href='../index.php' title='Homepage'>Keer terug naar Vermet.nl</a>";
+    echo "<a href='../index.php' title='Homepage'>Keer terug naar kvkia.nl</a>";
 
 }
 	//either $_Get wasn't set, or it was empty
